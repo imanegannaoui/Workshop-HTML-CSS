@@ -30,7 +30,7 @@ Réaliser le tableau ci-dessous :
 * réaliser alignement du texte "Xxxxx" au haut de la cellule, alignement du texte "Yyyyy" au bas de la cellule
 * définir couleurs de fond
 * placer une légende au bas du tableau
-* les balises </TR>, </TH>, </TD> sont facultatives, mais il vaut mieux les mettre
+* les balises ``</TR>``, ``</TH>``, ``</TD>`` sont facultatives, mais il vaut mieux les mettre
 
 ## Step 5 : Affichage de grandeurs dans une page HTML 5
 Écrire une page HTML 5 qui affiche :
@@ -83,8 +83,8 @@ Que se passe-il lorsque le rectangle est plus grand que le canvas ?
 ## Step 12 : Réalisation de formulaires HTML 5
 Réaliser le formulaire ci-dessous :
 * Pour mettre en page les différents éléments du formulaire (alignement des champs...), on utilise en général l'une des deux techniques suivantes :
-    * définition de tous les champs dans bloc <PRE> ... </PRE> (où les <espace>, <cr>... sont significatifs)
+    * définition de tous les champs dans bloc ``<PRE> ... </PRE>`` (où les ``<espace>``, ``<cr>``... sont significatifs)
     * définition de tous les champs dans un tableau (dont on peut rendre les bordures invisibles)
 La seconde technique, utilisée ci-dessous, permet une mise en page plus sophistiquée
 * Le texte en petits caractères italiques rouges est indicatif
-* Test : si vous désirez voir la forme que prend la chaîne de caractère "URL-encodée" (contenant les variables du formulaire) que le script envoie au serveur lorsque l'on presse le bouton d'envoi, vous pouvez commencer votre formulaire par la balise <FORM METHOD="GET" ACTION="nom_de_votre_page.html">
+* Test : si vous désirez voir la forme que prend la chaîne de caractère "URL-encodée" (contenant les variables du formulaire) que le script envoie au serveur lorsque l'on presse le bouton d'envoi, vous pouvez commencer votre formulaire par la balise ``<FORM METHOD="GET" ACTION="nom_de_votre_page.html">``
