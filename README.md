@@ -50,10 +50,10 @@ Faire en sorte que cette page soit suffisamment longue afin d'éviter que liens 
 ## Step 7 : Page xHTML contenant des object
 Écrire une page xHTML1.1 affichant contenant deux object de type text/HTML
 
-## Step 9 : Page xHTML contenant des object pour visualiser des documents pdf
+## Step 8 : Page xHTML contenant des object pour visualiser des documents pdf
 Écrire une page xHTML 1.1 affichant contenant un object contenant à son tour un document de type pdf
 
-## Step 10 : Page HTML reproduisant un fichier audio
+## Step 9 : Page HTML reproduisant un fichier audio
 Écrire une page HTML 5.0 émettant le contenu sonore du fichier ici présent
 Pour cela nous auron recours à la balise audio
 Faire en sorte que :
@@ -63,7 +63,7 @@ Faire en sorte que :
 * La musique tourne en boucle,
 En cas de non support de la part du navigateur, présenter un lien permettant le chargement du fichier
 
-## Step 11 : Page HTML affichant une video
+## Step 10 : Page HTML affichant une video
 Écrire une page xHTML 5 affichant la vidéo contenu dans le fichier ici présent
 Pour cela nous aurons recours à la balise audio
 Faire en sorte que :
@@ -73,14 +73,14 @@ Faire en sorte que :
 En cas de non support de la part du navigateur, présenter une applet chargeant le fichier flash ici présent
 En cas de non support du flahs et de la balise video présenter un lien permettant le chargement du fichier vidéo.
 
-## Step 12 : Page contenant un canvas
+## Step 11 : Page contenant un canvas
 Écrire une page xHTML 5 :
 * contenant un canvas dont la couleur de fond sera rouge
 * afficher dans ce canvas un rectangle de couleur différende de celle du fond.
 * donner au rectangle un contour blanc de 10 pixels de large.
 Que se passe-il lorsque le rectangle est plus grand que le canvas ?
 
-## Step 13 : Réalisation de formulaires HTML 5
+## Step 12 : Réalisation de formulaires HTML 5
 Réaliser le formulaire ci-dessous :
 * Pour mettre en page les différents éléments du formulaire (alignement des champs...), on utilise en général l'une des deux techniques suivantes :
     * définition de tous les champs dans bloc <PRE> ... </PRE> (où les <espace>, <cr>... sont significatifs)
