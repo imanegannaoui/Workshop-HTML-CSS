@@ -1,0 +1,14 @@
+#big {
+    height:500px ;
+    width: 500px;
+    background-color: red;
+
+}
+#square {
+    background-color: seagreen;
+    position: relative;
+    top: 40px; left: 40px;
+    border: 10px solid black;
+    width: 50%;
+    height: 50%;
+}
