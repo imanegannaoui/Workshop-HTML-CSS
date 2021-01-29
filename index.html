@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+
+    </style>
+    
+    
 </head> 
 <body>
     <header>
@@ -114,6 +119,7 @@
         <p><strong>CSS</strong><meter id="CSS" value="0.75">3/4</meter></p>
         <p><strong>JavaScript</strong><meter id="JavaScript" value="50" max="100">50%</meter></p>
         <p>last update <date datetime="2022-01-28">01/28</date></p>
+        <input type="date" type="time">
     </section>
 
     <section>
@@ -149,14 +155,17 @@
         </video>
     </section>
 
-    <section>
+    <section class="canvas-container">
         <h5>Canva Tag</h5>
-        <canvas id="myCanvas" width="200" height="100" style="border:1px solid #920e0e;"></canvas>
-    </section>
-
-    <section>
+        <canvas id="myCanvas" style="position: relative; align-items: center; background-color: #920e0e;" width="400" height="400">
+            <div id="mySubCanvas" style="position:absolute; top: 50%;left: 50% ;transform: translate(-50%,-50%); background-color: aqua"; width="200" ;height="100">
+                <canvas id="myCanvas1"></canvas>
+            </div>
+        </canvas>
         
     </section>
+
+    <form action="" method="get"></form>
 
 
 
@@ -170,6 +179,6 @@
         <p>Powered By Class 4</p>
     </footer>
 
-
+    <script src="app.js"></script>
 </body>
 </html>
